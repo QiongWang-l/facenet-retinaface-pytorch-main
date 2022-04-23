@@ -4,22 +4,15 @@
 ## 目录
 1. [注意事项 Attention](#注意事项)
 2. [所需环境 Environment](#所需环境)
-3. [文件下载 Download](#文件下载)
 4. [预测步骤 How2predict](#预测步骤)
 5. [参考资料 Reference](#Reference)
 
 ## 注意事项
 该库中包含了两个网络，分别是retinaface和facenet。二者使用不同的权值。    
-在使用网络时一定要注意权值的选择，以及主干与权值的匹配。   
-retinaface人脸检测仓库为，可以训练也可以预测：https://github.com/bubbliiiing/retinaface-pytorch     
-facenet人脸识别仓库为，可以训练也可以预测：https://github.com/bubbliiiing/facenet-pytorch       
+在使用网络时一定要注意权值的选择，以及主干与权值的匹配。       
 
 ## 所需环境
-pytorch==1.2.0 
-
-## 文件下载
-预测所需的权值文件可以在百度云下载。     
-链接: https://pan.baidu.com/s/1iTo4_x0DHg0GoTUQWduMZw 提取码: dmw6     
+pytorch==1.2.0   
 
 ## 预测步骤
 1. 本项目自带主干为mobilenet的retinaface模型与facenet模型。可以直接运行，如果想要使用主干为resnet50的retinafa和主干为inception_resnetv1的facenet模型需要。
